@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kyung/Desktop/workspace/cpp/grammar/vectorPrac/CVector.h
+iostream
+-
+
+/Users/kyung/Desktop/workspace/cpp/grammar/vectorPrac/main.cpp
+iostream
+-
+CVector.h
+/Users/kyung/Desktop/workspace/cpp/grammar/vectorPrac/CVector.h
+

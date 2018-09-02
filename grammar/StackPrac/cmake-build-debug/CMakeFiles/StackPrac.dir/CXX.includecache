@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kyung/Desktop/workspace/cpp/grammar/StackPrac/Stack.h
+iostream
+-
+
+/Users/kyung/Desktop/workspace/cpp/grammar/StackPrac/main.cpp
+Stack.h
+/Users/kyung/Desktop/workspace/cpp/grammar/StackPrac/Stack.h
+
